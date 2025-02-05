@@ -76,6 +76,15 @@
 ### บันทึกผลการทดลอง
 [บันทึกภาพหน้าจอของผลลัพธ์การทดลอง]
 ```html
-d
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ทดสอบ Live Server</title>
+</head>
+<body>
+    <h1>สวัสดี Live Server</h1>
+</body>
+</html>
 ```
 
+![image](https://github.com/user-attachments/assets/1285290d-c09b-460e-8930-d4075a7afb07)
