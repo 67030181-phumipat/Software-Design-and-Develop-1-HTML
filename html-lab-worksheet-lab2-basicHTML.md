@@ -39,6 +39,7 @@
 ```
 - ภาพผลลัพธ์:
 [วางภาพ screenshot ที่นี่]
+![image](https://github.com/user-attachments/assets/107b9c7a-1eee-4f16-9fc0-fa5959f538a4)
 
 
 
