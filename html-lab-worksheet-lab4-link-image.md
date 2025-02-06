@@ -165,10 +165,71 @@
 ### บันทึกผลการทดลอง
 - รหัสเอกสาร HTML ที่เขียน:
 ```html
-[วางโค้ด HTML ที่นี่]
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>แบบฝึกหัด</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html">หน้าหลัก</a>
+        <a href="67030181">ติดต่อเรา</a>
+    
+    <section id="tops">
+        <h1>ชีสเค้ก</H1>
+        <figure>
+            <img src="https://cdn.pixabay.com/photo/2021/04/05/14/48/cheese-platter-6153716_640.jpg" alt="logo website" width="300" height="300">
+            
+        </figure>
+    </section>
+<section id="products">
+    <h2>สินค้าของเรา</h2>
+    <h3>ชีสเค้กที่ทำจากผลไม้นานาชนิด</h3>
+    <div>
+        <figure>
+            <a href="images/gallery/7400.png" >
+                <img src="https://media.istockphoto.com/id/612521142/th/%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%96%E0%B9%88%E0%B8%B2%E0%B8%A2/%E0%B8%A1%E0%B8%B1%E0%B8%87%E0%B8%AA%E0%B8%A7%E0%B8%B4%E0%B8%A3%E0%B8%B1%E0%B8%95%E0%B8%B4%E0%B9%80%E0%B8%84%E0%B9%89%E0%B8%81%E0%B9%81%E0%B8%84%E0%B8%A3%E0%B8%AD%E0%B8%97%E0%B8%94%E0%B8%B4%E0%B8%9A-%E0%B8%AD%E0%B8%B2%E0%B8%AB%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%9E%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%AA%E0%B8%B8%E0%B8%82%E0%B8%A0%E0%B8%B2%E0%B8%9E-%E0%B8%9E%E0%B8%B7%E0%B9%89%E0%B8%99%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B8%AA%E0%B8%B5%E0%B9%80%E0%B8%97%E0%B8%B2.jpg?s=612x612&w=0&k=20&c=b1Sk23zBh7xjFGSoOBA5-hmFcaivqb9iOG3ucR7gFlg=" alt="IC 7400" width="200">
+            </a>
+            <figcaption>บลูเบอร์รี่ ชีสเค้ก</figcaption>
+        </figure>
+    </div>
+    
+    <div>
+        <figure>
+            <a href="images/gallery/7402.png">
+                <img src="https://media.istockphoto.com/id/1135588755/th/%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%96%E0%B9%88%E0%B8%B2%E0%B8%A2/%E0%B8%9B%E0%B8%B4%E0%B8%94%E0%B9%80%E0%B8%84%E0%B9%89%E0%B8%81%E0%B9%81%E0%B8%84%E0%B8%A3%E0%B8%AD%E0%B8%97%E0%B8%A1%E0%B8%B1%E0%B8%87%E0%B8%AA%E0%B8%A7%E0%B8%B4%E0%B8%A3%E0%B8%B1%E0%B8%95%E0%B8%B4%E0%B8%8A%E0%B8%B4%E0%B9%89%E0%B8%99%E0%B8%AB%E0%B8%99%E0%B8%B6%E0%B9%88%E0%B8%87%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%AD%E0%B8%B1%E0%B8%A5%E0%B8%A1%E0%B8%AD%E0%B8%99%E0%B8%94%E0%B9%8C%E0%B8%9A%E0%B8%99%E0%B8%88%E0%B8%B2%E0%B8%99%E0%B8%A3%E0%B8%AD%E0%B8%87%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%AA%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B9%83%E0%B8%81%E0%B8%A5%E0%B9%89-%E0%B9%86.jpg?s=612x612&w=0&k=20&c=GZYUHgeswPmBwHLpI1VjwgBMYFIcZaDFfVK2pzQyEJ4=" alt="IC 7402" width="200">
+            </a>
+            <figcaption>อัลมอล ชีสเค้ก</figcaption>
+        </figure>
+    </div>
+
+    <div>
+        <figure>
+            <a href="images/gallery/7404.png">
+                <img src="https://cdn.pixabay.com/photo/2021/05/18/12/48/cheese-cake-6263345_640.jpg" alt="IC 7404" width="200">
+            </a>
+            <figcaption>สตอเบอร์รี่ ชีสเค้ก</figcaption>
+        </figure>
+    </div>
+
+    <div>
+        <figure>
+            <a href="images/gallery/7408.png">
+                <img src="https://cdn.pixabay.com/photo/2014/07/21/23/00/orange-cake-398966_640.jpg" alt="IC 7408" width="200">
+            </a>
+            <figcaption>ส้ม ชีสเค้ก</figcaption>
+        </figure>
+    </div>
+    <a href="#top">
+        <button>กลับ</button>
+    </section>
+</body>
+</html>
 ```
 - ภาพผลลัพธ์:
-[วางภาพ screenshot ที่นี่]
+![image](https://github.com/user-attachments/assets/e7169897-654e-4893-9103-0c55616ba2e0)
+
 
 
 
